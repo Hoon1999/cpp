@@ -35,7 +35,7 @@ int main() {
 	//(int)ch
 	
 	//C++ style
-	int(ch);
+	int i = int(ch); // int i 가 없으면 에러가 나는데 이유를 모르겠다.
 
 	//c++ friend style
 	static_cast<int>(ch);
