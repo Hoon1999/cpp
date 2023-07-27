@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #ifndef TIME
+#define TIME
 
 class Time {
 private:
